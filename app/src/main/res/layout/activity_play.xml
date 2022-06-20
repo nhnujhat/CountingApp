@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+    <ImageView
+        android:id="@+id/countimg"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/countone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/counttwo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countthree"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countfour"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countfive"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/countsix"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countseven"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/counteight"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countnine"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/countten"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="10"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/again"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:text="Go Again!"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center" />
+
+</LinearLayout>

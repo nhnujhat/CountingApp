@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="START COUNTING"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:text="Or Learn Today!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="1 ONE"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="2 TWO"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="3 THREE"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="4 FOUR"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="5 FIVE"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="6 SIX"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="7 SEVEN"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="8 EIGHT"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="9 NINE"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/ten"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="10 TEN"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:text="Happy Counting!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
